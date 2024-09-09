@@ -1,0 +1,21 @@
+/* styles.css ou styles.scss */
+
+.sidenav-container {
+    height: 100vh; /* Assurez-vous que le conteneur occupe toute la hauteur de la fenêtre */
+  }
+  
+  mat-sidenav {
+    width: 250px; /* Ajustez la largeur du sidenav selon vos besoins */
+  }
+  
+  mat-sidenav-content {
+    padding: 16px; /* Ajoutez du padding si nécessaire */
+  }
+  
+  /* Optionnel: ajuster le comportement du contenu principal */
+  mat-sidenav-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Assurez-vous que le contenu occupe tout l'espace disponible */
+  }
+  

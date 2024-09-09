@@ -1,0 +1,51 @@
+/* Ajuster la largeur de la table */
+table.mat-table {
+    width: 100%; /* Utilise toute la largeur disponible */
+  }
+  
+  /* Augmenter la taille des cellules d'en-tête */
+  .mat-header-cell {
+    font-size: 1.2rem; /* Augmente la taille de la police */
+    padding: 16px; /* Ajoute du padding pour agrandir les cellules */
+  }
+  
+  /* Augmenter la taille des cellules de données */
+  .mat-cell {
+    font-size: 1.1rem; /* Augmente la taille de la police */
+    padding: 16px; /* Ajoute du padding pour agrandir les cellules */
+  }
+  
+  /* Ajuster la largeur des colonnes spécifiques */
+  .mat-column-id {
+    width: 100px; /* Définir une largeur spécifique pour la colonne ID */
+  }
+  
+  .mat-column-name {
+    width: 200px; /* Définir une largeur spécifique pour la colonne Name */
+  }
+  
+  .mat-column-price,
+  .mat-column-quantity {
+    width: 150px; /* Définir une largeur spécifique pour Price et Quantity */
+  }
+  
+  /* Si nécessaire, ajustez la largeur du conteneur global */
+  .container {
+    max-width: 1200px; /* Vous pouvez ajuster cette valeur pour augmenter la taille globale */
+    margin: 0 auto; /* Centre le contenu */
+  }
+  
+
+  .mat-icon-button {
+    margin: 0 5px; /* Espace entre les boutons */
+  }
+  
+  .mat-icon {
+    font-size: 24px; /* Ajuster la taille de l'icône si nécessaire */
+  }
+  
+  .mat-paginator {
+    display: flex;
+    justify-content: center;
+  }
+  

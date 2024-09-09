@@ -1,5 +1,21 @@
-<mat-slide-toggle>Toggle me!</mat-slide-toggle>
-  <button mat-fab extended>
-    
-    Home
-  </button>
+<mat-toolbar color="primary">
+  <span>Product Management</span>
+  <span class="spacer"></span>
+  <button mat-button [routerLink]="['/patients']">Product List</button>
+</mat-toolbar>
+
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #sidenav mode="side" opened="true">
+    <mat-nav-list>
+      <mat-list-item [routerLink]="['/patients']">Liste Patients</mat-list-item>
+      <!-- Add more navigation items here -->
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<mat-toolbar color="primary" class="footer">
+  <span class="footer-content">© 2024 Copyright: Dawini.fr</span>
+</mat-toolbar>

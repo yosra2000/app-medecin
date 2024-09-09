@@ -1,0 +1,36 @@
+/* Add this to your component CSS file or global styles */
+.patient-card {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(230, 213, 193);
+  }
+  
+  .mat-card-content {
+    padding: 16px;
+  }
+  
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  table.mat-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th.mat-header-cell,
+  td.mat-cell {
+    padding: 16px;
+    text-align: left;
+  }
+  
+  .mat-header-cell {
+    font-weight: bold;
+    background-color: #f1f1f1;
+  }
+  
+  .mat-row {
+    border-bottom: 1px solid #ddd;
+  }
+  

@@ -1,0 +1,180 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "Yousra",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/User_icon-cp.png/724px-User_icon-cp.png",
+      "diagnosis": "Obesity",
+      "age": 45,
+      "weight": 120,
+      "height": 1.75,
+      "bmi": 39.2,
+      "notes": "Patient needs regular monitoring and lifestyle adjustments.",
+      "followUps": [
+        {
+          "week": 1,
+          "bmi": 38.0,
+          "cardiology": "Stable"
+        },
+        {
+          "week": 2,
+          "bmi": 37.5,
+          "cardiology": "Improving"
+        },
+        {
+          "week": 3,
+          "bmi": 37.0,
+          "cardiology": "Stable"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Yousra",
+      "image": "https://www.prolival.fr/wp-content/uploads/2018/06/user.png",
+      "diagnosis": "Hypertension",
+      "age": 34,
+      "weight": 68,
+      "height": 1.65,
+      "bmi": 25.0,
+      "notes": "Regular check-ups required.",
+      "followUps": [
+        {
+          "week": 1,
+          "bmi": 25.0,
+          "cardiology": "Normal"
+        },
+        {
+          "week": 2,
+          "bmi": 24.8,
+          "cardiology": "Improving"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Nour",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/User_icon-cp.png/724px-User_icon-cp.png",
+      "diagnosis": "Obesity",
+      "age": 45,
+      "weight": 120,
+      "height": 1.75,
+      "bmi": 39.2,
+      "notes": "Patient needs regular monitoring and lifestyle adjustments.",
+      "followUps": [
+        {
+          "week": 1,
+          "bmi": 38.0,
+          "cardiology": "Stable"
+        },
+        {
+          "week": 2,
+          "bmi": 37.5,
+          "cardiology": "Improving"
+        },
+        {
+          "week": 3,
+          "bmi": 37.0,
+          "cardiology": "Stable"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Rita",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/User_icon-cp.png/724px-User_icon-cp.png",
+      "diagnosis": "Obesity",
+      "age": 45,
+      "weight": 120,
+      "height": 1.75,
+      "bmi": 39.2,
+      "notes": "Patient needs regular monitoring and lifestyle adjustments.",
+      "followUps": [
+        {
+          "week": 1,
+          "bmi": 38.0,
+          "cardiology": "Stable"
+        },
+        {
+          "week": 2,
+          "bmi": 37.5,
+          "cardiology": "Improving"
+        },
+        {
+          "week": 3,
+          "bmi": 37.0,
+          "cardiology": "Stable"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "nour",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/User_icon-cp.png/724px-User_icon-cp.png",
+      "diagnosis": "Obesity",
+      "age": 45,
+      "weight": 120,
+      "height": 1.75,
+      "bmi": 39.2,
+      "notes": "Patient needs regular monitoring and lifestyle adjustments.",
+      "followUps": [
+        {
+          "week": 1,
+          "bmi": 38.0,
+          "cardiology": "Stable"
+        },
+        {
+          "week": 2,
+          "bmi": 37.5,
+          "cardiology": "Improving"
+        },
+        {
+          "week": 3,
+          "bmi": 37.0,
+          "cardiology": "Stable"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "rita",
+      "price": 35,
+      "quantity": 3,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/User_icon-cp.png/724px-User_icon-cp.png",
+      "diagnosis": "Obesity",
+      "age": 45,
+      "weight": 120,
+      "height": 1.75,
+      "bmi": 39.2,
+      "notes": "Patient needs regular monitoring and lifestyle adjustments.",
+      "followUps": [
+        {
+          "week": 1,
+          "bmi": 38.0,
+          "cardiology": "Stable"
+        },
+        {
+          "week": 2,
+          "bmi": 37.5,
+          "cardiology": "Improving"
+        },
+        {
+          "week": 3,
+          "bmi": 37.0,
+          "cardiology": "Stable"
+        }
+      ]
+    }
+  
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "info"
+    },
+    {
+      "id": 2,
+      "name": "tech"
+    }
+  ]
+}
