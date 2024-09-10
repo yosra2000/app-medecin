@@ -8,7 +8,7 @@ import { Patient } from '../models/Patient';
 })
 export class PatientService {
 
-  host = 'http://localhost:3000/patients';
+  host = 'https://fhir.alliance4u.io/api/patient';
 
   constructor(private client: HttpClient) {}
 
@@ -25,6 +25,4 @@ export class PatientService {
   getPatientById(id: string): Observable<Patient> {
     return this.client.get<Patient>(`${this.host}/${id}`);
   }
-
-
 }
