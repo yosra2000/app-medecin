@@ -20,13 +20,14 @@ import { AppComponent } from './app.component';
 import { ListePatientsComponent } from './liste-patients/liste-patients.component';
 import { LoginComponent } from './login/login.component';
 import { PatientDetailsComponent } from './patient-details/patient-details.component';
-
+import { ProfilComponent } from './profil/profil.component';
 @NgModule({
   declarations: [
     AppComponent,
     ListePatientsComponent,
     PatientDetailsComponent,
-    LoginComponent
+    LoginComponent,
+    ProfilComponent
   ],
   imports: [
     BrowserModule,
